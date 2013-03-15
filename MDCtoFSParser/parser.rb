@@ -13,11 +13,10 @@ class Parser
       mdc = columns[0]
       for i in 1..columns.size
         unless columns[i].nil?
-          fmh = columns[i].gsub(" ","")
-          puts fmh
+          fmh = columns[i].gsub(/\s+/, "")
           unless fmh.nil?
             if fmh.length>0
-              documents.push(create_document(mdc,columns[i]))
+              documents.push(create_document(mdc,fmh))
             end
           end
         end
