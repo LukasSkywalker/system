@@ -27,7 +27,7 @@ class Parser
   end
 
   def create_document(mdc, fmh)
-    doc = {:fs_code=>fmh, :mdc_code=>mdc}
+    doc = {:fs_code=>fmh.to_i, :mdc_code=>mdc}
     doc
   end
 
