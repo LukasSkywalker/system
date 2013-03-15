@@ -1,11 +1,12 @@
 class Parser
   require_relative 'adapter'
   attr_accessor :file
-  def initialize
-    filename = 'data.csv'
-    self.file = File.new(filename)
+
+  def initialize (filename)
+    self.file = File.open(File.dirname(__FILE__) + "/#{filename}")
   end
 
+  #@return an array of parsed MDC - FS documents
   def parse_documents
     documents = Array.new
     file.each_line() do |row|
@@ -26,8 +27,7 @@ class Parser
   end
 
   def create_document(mdc, fmh)
-    doc = "{:fs_code=>#{fmh}, :mdc_code=>#{mdc}}"
-    doc.gsub!("\n","")
+    doc = {:fs_code=>fmh, :mdc_code=>mdc}
     doc
   end
 
