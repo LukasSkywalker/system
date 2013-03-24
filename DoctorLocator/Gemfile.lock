@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bson (1.8.3)
+    geocoder (1.1.6)
+    mongo (1.8.3)
+      bson (~> 1.8.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  geocoder
+  mongo
