@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"> 
+  <script src="arrayHelpers.js"></script>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    var r = [];
+    const WIDTH = 800;
+    
+    function setPos(el, left, top){
+      el.css({top: top+'px', left: left+'px'});
+    }
+    
+    function makeDiv(){
+        $newdiv = $('<div></div>');
+        $newdiv.css({
+                'width':WIDTH+'px',
+                'height':'800px',
+                'background-color': '#CCC',
+                'position':'absolute',
+                'left':'0px',
+                'top':'0px'
+            }).appendTo( 'body' );
+    
+        for( var i=0; i<20; i++) {
+            var divwidth = ((Math.random()*200) + 50).toFixed();
+            var divheight = ((Math.random()*200) + 50).toFixed();
+            var color = '#'+ Math.round(0xffffff * Math.random()).toString(16);
+            $newdiv = $('<div><b>'+i+'</b></div>');
+            
+            var posx = Math.random()*200;
+            var posy = Math.random()*200;
+            
+            $newdiv.css({
+                'width':divwidth+'px',
+                'height':divheight+'px',
+                'background-color': color,
+                'position':'absolute',
+                'left':posx+'px',
+                'top':posy+'px',
+                'border':'1px solid black'
+            }).appendTo( 'body' );
+            r.push($newdiv);
+        }
+        
+        oneColumn(r);
+        
+        
+        //for(var i=0;i<r.length;i++){for(var j=0;j<r.length;j++){if(i!=j)console.log(i+" "+j+" :"+getOverlap(r[i],r[j]));}}
+    }
+    
+    //  Two Columns Heuristic
+        function twoColumns(r){
+          var topLeft = 0, topRight = 0;
+          var len = r.length;
+          for(var i=0; i<len; i++){
+            var re = r[i];
+            if(re.width() > WIDTH/2){
+              console.log("width is "+re.width()+", setting to top");
+              var xOff = Math.random() * (WIDTH-re.width());
+              setPos(re, xOff, topLeft);
+              topLeft = topRight = topRight + re.height();
+              console.log("top is now "+topRight);
+            }
+          }
+          
+          r.sort(function(a,b){return b.height()-a.height();})
+          
+          for(var i=0; i<r.length; i++){
+            var re = r[i];
+            if(re.width() <= WIDTH/2){
+              var xOff = Math.random() * (WIDTH/2-re.width());
+              if(topLeft <= topRight){
+                setPos(re, xOff, topLeft);
+                topLeft += re.height();
+              }else{
+                setPos(re, WIDTH/2+xOff, topRight);
+                topRight += re.height();
+              }
+            }
+          }
+          
+          var bottom = Math.max(topLeft, topRight);
+          console.log(bottom);
+        }
+        
+        //  One Column Heuristic
+        function oneColumn(r){
+          var top = 0;
+          var len = r.length;
+          for(var i=0; i<len; i++){
+            var re = r[i];
+            if(re.width() > WIDTH/2){
+              console.log("width is "+re.width()+", setting to top");
+              var xOff = Math.random() * (WIDTH-re.width());
+              setPos(re, xOff, top);
+              top += re.height();
+              console.log("top is now "+top);
+            }
+          }
+          
+          r.sort(function(a,b){return b.height()-a.height();})
+          var left = WIDTH;
+          var bottom = top;
+          for(var i=0; i<r.length; i++){
+            var re = r[i];
+            if(re.width() <= WIDTH/2){
+              if(re.width() <= left){ //fits in this row
+                if(left == WIDTH) bottom = top + re.height(); //this is the first here, set top
+                setPos(re, WIDTH-left, top);
+                left -= re.width();
+              }else{
+                left = WIDTH;
+                top = bottom;
+                setPos(re, WIDTH-left, top);
+                bottom = top + re.height();
+                left -= re.width();
+              }
+            }
+          }
+          console.log(bottom);
+        }
+    
+    
+    function getOverlap(r1, r2) {
+      // see http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.187.9515
+      return Math.max(Math.min( (r1.width()+r2.width())/Math.abs(r1.position().left-r2.position().left), (r1.height()+r2.height())/Math.abs(r1.position().top-r2.position().top) ), 1);
+    }
+    
+    function Point(x, y){
+      this.x = x;
+      this.y = y;
+    }
+
+    function Rect(x, y, width, height){
+      this.left = x;
+      this.top = y;
+      this.width = width;
+      this.height = height;
+    }
+
+    Rect.prototype.toString = function(){
+      return 'Rect('+this.left+', '+this.top+', '+(this.left+this.width())+', '+(this.top+this.height())+')';
+    }
+
+  </script>
+</head>
+<body onload="makeDiv();">
+</body>
+</html>
