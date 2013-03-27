@@ -13,15 +13,80 @@
       this.y = y;
     }
     
-    function Canvas(left, top, width, height) {
+    function demo(){
+      var r = makeDiv();
+      oneColumn2(r);
+    }
+    
+    function test(){
+      r.sort(function (a, b) {
+        return $(b).height() - $(a).height();
+      })
+      
+      var c = new Canvas(0,0,600);
+      var n = new Node(r[0], null, true);
+      var r_1 = c.addRow(n);
+      assert(r_1.top, 0);
+      assert(r_1.bottom(), n.height);
+      assert(c.bottom(), n.height);
+      var n2 = new Node(r[1], null, true);
+      r_1.addNode(n2);
+      assert(r_1.height(), n.height);
+      assert(r_1.bottom(), n.height)
+    }
+    
+    function oneColumn2(r) {
+      var c = new Canvas(0,0,800);
+      
+      for (var i = 0; i < r.length; i++) {
+        var n = new Node(r[i], null, true);
+        if (n.width > WIDTH / 2) {
+          console.log("width is " + n.width + ", setting to top");
+          var r_1 = c.addRow(n);
+        }
+      }
+
+      r.sort(function (a, b) {
+        return $(b).height() - $(a).height();
+      })
+
+      for (var i = 0; i < r.length; i++) {
+        var n = new Node(r[i], null, false);
+        if (n.width <= WIDTH / 2) {
+          if (c.currentRow() == undefined){ //no row yet
+            c.addRow(n);
+          }else if(n.width + c.currentRow().spaceUsed() <= 800) { //fits in this row
+            c.currentRow().addNode(n);
+          } else {    // no more space left
+            c.addRow(n);
+          }
+        }
+      }
+    }
+    
+    function assert(a, b){
+      if(a !== b) console.log('is not ok: '+a+" != "+b);
+      else console.log('is ok');
+    }
+    
+    function Canvas(left, top, width) {
       this.rows = [];
       this.left = left;
       this.top = top;
       this.width = width;
     }
     
+    Canvas.prototype.currentRow = function(){
+      return this.rows[this.rows.length - 1];
+    }
+    
+    
     Canvas.prototype.addRow = function(node) {
-      this.rows.push(new Row(node));
+      console.log('adding row at '+this.bottom());
+      var row = new Row(this.bottom(), node);
+      this.rows.push(row);
+      console.log('added, bottom is now '+this.bottom());
+      return row;
     }
     
     Canvas.prototype.bottom = function() {
@@ -30,36 +95,52 @@
         var r = this.rows[i];
         b += r.height();
       }
+      return b;
     }
     
-    function Row(top, node) {
-      this.top = top;
+    function Row(xPos, node) {
+      this.xPos = xPos;
       this.nodes = [];
       this.addNode(node);
     }
     
+    Row.prototype.top = function(){
+      return this.xPos;
+    }
+    
     Row.prototype.addNode = function(node) {
+      node.setPosition(this.spaceUsed(), this.top());
+      
       this.nodes.push(node);
     }
     
+    Row.prototype.spaceUsed = function() {
+      var w = 0;
+      for(var i=0; i<this.nodes.length; i++){
+        w += this.nodes[i].width;
+      }
+      return w;
+    }
+    
     Row.prototype.height = function() {
-      var h = this.rects[0].height;
-      for(var i=0; i<this.rects.length; i++) {
-        var r = this.rects[i];
+      var h = this.nodes[0].height;
+      for(var i=0; i<this.nodes.length; i++) {
+        var r = this.nodes[i];
         h = Math.max(h, r.height);
       }
       return h;
     }
     
     Row.prototype.bottom = function() {
-      return this.top + this.height();
+      return this.top() + this.height();
     }
 
     function Node(el, parent, root) {
       if(root) rootNode = this;
       this.el = el;
-      this.width = el.width();
-      this.height = el.height();
+      console.log(el);
+      this.width = $(el).width();
+      this.height = $(el).height();
       if(parent){
         this.parent = parent;
       }
@@ -83,10 +164,11 @@
       this.el.remove();
     }
     
-    var r = [];
+    
     const WIDTH = 800;
 
     function makeDiv() {
+      var r = [];
       for (var i = 0; i < 20; i++) {
         var divwidth = ((Math.random() * 200) + 50).toFixed();
         var divheight = ((Math.random() * 200) + 50).toFixed();
@@ -106,16 +188,9 @@
           'border': '1px solid black'
         }).appendTo('body');
         
-        if(i == 0) r.push(new Node($newdiv, null, true));
-        else r.push(new Node($newdiv, r[0]));
+        r.push($newdiv);
       }
-
-      oneColumn(r);
-      //twoColumns(r);
-
-      drawLines();
-
-      //for(var i=0;i<r.length;i++){for(var j=0;j<r.length;j++){if(i!=j)console.log(i+" "+j+" :"+getOverlap(r[i],r[j]));}}
+      return r;
     }
     
     function drawLines() {
@@ -128,87 +203,6 @@
         }
       }
     }
-
-     //  Two Columns Heuristic
-
-    function twoColumns(r) {
-      var topLeft = 0,
-        topRight = 0;
-      var len = r.length;
-      for (var i = 0; i < len; i++) {
-        var re = r[i];
-        if (re.width > WIDTH / 2) {
-          console.log("width is " + re.width + ", setting to top");
-          var xOff = Math.random() * (WIDTH - re.width);
-          re.setPosition(xOff, topLeft);
-          topLeft = topRight = topRight + re.height();
-          console.log("top is now " + topRight);
-        }
-      }
-
-      r.sort(function (a, b) {
-        return b.height - a.height;
-      })
-
-      for (var i = 0; i < r.length; i++) {
-        var re = r[i];
-        if (re.width <= WIDTH / 2) {
-          var xOff = Math.random() * (WIDTH / 2 - re.width);
-          if (topLeft <= topRight) {
-            re.setPosition(xOff, topLeft);
-            topLeft += re.height;
-          } else {
-            re.setPosition(WIDTH / 2 + xOff, topRight);
-            topRight += re.height;
-          }
-        }
-      }
-
-      var bottom = Math.max(topLeft, topRight);
-      console.log(bottom);
-    }
-
-     //  One Column Heuristic
-
-    function oneColumn(r) {
-      var top = 0;
-      var len = r.length;
-      for (var i = 0; i < len; i++) {
-        var re = r[i];
-        if (re.width > WIDTH / 2) {
-          console.log("width is " + re.width + ", setting to top");
-          var xOff = Math.random() * (WIDTH - re.width);
-          re.setPosition(xOff, top);
-          top += re.height;
-          console.log("top is now " + top);
-        }
-      }
-
-      r.sort(function (a, b) {
-        return b.height - a.height;
-      })
-      var left = WIDTH;
-      var bottom = top;
-      for (var i = 0; i < r.length; i++) {
-        var re = r[i];
-        if (re.width <= WIDTH / 2) {
-          if (re.width <= left) { //fits in this row
-            if (left == WIDTH) bottom = top + re.height; //this is the first here, set top
-            re.setPosition(WIDTH - left, top);
-            left -= re.width;
-          } else {
-            left = WIDTH;
-            top = bottom;
-            re.setPosition(WIDTH - left, top);
-            bottom = top + re.height;
-            left -= re.width;
-          }
-        }
-      }
-      console.log(bottom);
-    }
-
-     // recursive division???
 
   </script>
   <style>
@@ -236,7 +230,7 @@
     }
     </style>
 </head>
-<body onload="makeDiv();">
+<body onload="demo()">
   <div id="wrapper">
     <div id="container">
     <div id="canvas">
