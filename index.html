@@ -12,6 +12,48 @@
       this.x = x;
       this.y = y;
     }
+    
+    function Canvas(left, top, width, height) {
+      this.rows = [];
+      this.left = left;
+      this.top = top;
+      this.width = width;
+    }
+    
+    Canvas.prototype.addRow = function(node) {
+      this.rows.push(new Row(node));
+    }
+    
+    Canvas.prototype.bottom = function() {
+      var b = 0;
+      for(var i=0; i<this.rows.length; i++){
+        var r = this.rows[i];
+        b += r.height();
+      }
+    }
+    
+    function Row(top, node) {
+      this.top = top;
+      this.nodes = [];
+      this.addNode(node);
+    }
+    
+    Row.prototype.addNode = function(node) {
+      this.nodes.push(node);
+    }
+    
+    Row.prototype.height = function() {
+      var h = this.rects[0].height;
+      for(var i=0; i<this.rects.length; i++) {
+        var r = this.rects[i];
+        h = Math.max(h, r.height);
+      }
+      return h;
+    }
+    
+    Row.prototype.bottom = function() {
+      return this.top + this.height();
+    }
 
     function Node(el, parent, root) {
       if(root) rootNode = this;
