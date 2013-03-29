@@ -11,17 +11,9 @@ class Adapter
     self.coll = db.collection(collection)
   end
 
-  #Adds a document to the collection this instance manages
-  #@param doc: the document being added
-  def save_document( doc )
-    self.coll.insert(doc)
+  def get_entries ()
+    self.coll.find().to_a
   end
-
-  #Drops all documents in the collection
-  def drop_documents
-    self.coll.remove()
-  end
-
 
 end
 
