@@ -8,8 +8,8 @@ db = 'chop_2013_ch'
 
 puts "connecting..."
 parser = Parser.new('../chop_related_drg.csv')
-de_read_adapter = Adapter.new(db,'de',host, port, false)
-de_write_adapter = Adapter.new(db,'test_coll',host, port, true)
+de_read_adapter = Adapter.new(db,'it',host, port, false)
+de_write_adapter = Adapter.new(db,'it',host, port, true)
 chop_entries = de_read_adapter.get_entries
 chop_drg_assocs = parser.read_assocs
 results = []
@@ -23,8 +23,11 @@ chop_drg_assocs.each do |assoc|
       found_entries[0]['drgs']<<assoc['drg']
     end
 end
+puts 'removing...'
+de_write_adapter.drop_collection
 puts 'inserting...'
 chop_entries.each do |entry|
+  puts de_write_adapter.get_percentage
   de_write_adapter.insert(entry)
 end
 

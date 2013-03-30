@@ -20,10 +20,19 @@ class Adapter
     results = []
     puts self.coll.find().count
     self.coll.find().each do |doc|
+      doc.delete('_id')
       doc['drgs'] = []
       results << doc
     end
     results
+  end
+
+  def drop_collection
+    self.coll.remove()
+  end
+
+  def get_percentage
+    ((self.coll.find().count()/14789.0)*100.0).to_s+'%'
   end
 
   def insert(doc)
