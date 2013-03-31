@@ -18,9 +18,10 @@ class DbAdapter
 
   def insert_location(id, loc)
     doc = self.coll.find_one({_id: id})
-    doc['long'] = loc.longitude
+    doc['loc']['long'] = loc.longitude
     doc['lat'] = loc.latitude
     puts doc
+    puts "#{loc.longitude}, #{loc.latitude}"
     #self.coll.remove({_id: id})
     #self.coll.insert(doc)
     self.coll.update({'_id' => id}, doc )
