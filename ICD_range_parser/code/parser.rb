@@ -17,7 +17,7 @@ class Parser
       for i in 4..splits.length-1 do
         splits[i].gsub(/\s+/, "")
 
-        fmhcodes<<splits[i] unless splits[i] == '' or splits[i] == "\n"
+        fmhcodes<<splits[i].to_i unless splits[i] == '' or splits[i] == "\n"
       end
       docs<<{'level' => level, 'beginning' => beginning, 'ending' => ending, 'name' => name, 'fmhcodes' =>fmhcodes}
     end
