@@ -11,6 +11,10 @@ class DbAdapter
     db.authenticate('pse4_write', pw)
   end
 
+  def get_data_count
+    @con['relationFSZuICD']['relationFSZuICD'].find('by_seq_match' => { '$exists' => 0 }).count
+  end
+
   def get_icd_fs_rel
     @con['relationFSZuICD']['relationFSZuICD'].find('by_seq_match' => { '$exists' => 0 })
   end
@@ -26,7 +30,7 @@ class DbAdapter
   def insert_updated_rel(id, score)
     rel = @con['relationFSZuICD']['relationFSZuICD'].find_one({_id: id})
     rel['by_seq_match'] = score
-    puts rel
+    #puts rel
     @con['relationFSZuICD']['relationFSZuICD'].update({'_id' => id}, rel )
   end
 end

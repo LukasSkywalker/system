@@ -14,6 +14,7 @@ class MatcherInserter
   end
 
   def get_icd_and_fs_data
+    puts "INITIALIZING....."
     icds = @db.get_icds
     @icds = {}
     icds.each do |icd|
@@ -31,16 +32,32 @@ class MatcherInserter
   end
 
   def insert_data
-    rels = @db.get_icd_fs_rel
+    puts "STARTING...."
+    chunk_size = 5000
+    chunk = 0
 
-    rels.p_each(18) do |rel|
-      icd_code = rel['icd_code']
-      icd_names = @icds[icd_code]
-      fs_code = rel['fs_code']
-      fs_name = @fmhs[fs_code.to_i]
-      id = rel['_id']
+    count = @db.get_data_count
+    chunks = (count / chunk_size).to_i
 
-      update_match_score(id, icd_names, fs_name)
+    puts "================ DATA SIZE = #{count} ====================="
+    puts "================ CHUNK SIZE = #{chunk_size} ====================="
+
+    while chunk <= chunks
+      puts "======================== NEW CHUNK #{chunk} / #{chunks} ========================="
+      beg = Time.now
+      rels = @db.get_icd_fs_rel.limit(chunk_size).skip(chunk*chunk_size)
+
+      rels.p_each(18) do |rel|
+        icd_code = rel['icd_code']
+        icd_names = @icds[icd_code]
+        fs_code = rel['fs_code']
+        fs_name = @fmhs[fs_code.to_i]
+        id = rel['_id']
+
+        update_match_score(id, icd_names, fs_name)
+      end
+      puts "========= TOOK #{Time.now - beg} SECONDS ============"
+      chunk += 1
     end
   end
 
