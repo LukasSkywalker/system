@@ -9,7 +9,7 @@ class Parser
     docs = []
     file.each_line() do |line|
       splits = line.split(',')
-      level  = splits[0]
+      level  = splits[0].to_i
       beginning = splits[1]
       ending = splits[2]
       name = splits[3]
