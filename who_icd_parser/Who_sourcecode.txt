@@ -1,0 +1,1311 @@
+
+      <dt>
+        <a name="BlockList-I" id="BlockList-I" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/A00-A09" title="Intestinal infectious diseases" class="code">A00-A09</a>
+            <span class="label">Intestinal infectious diseases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/A15-A19" title="Tuberculosis" class="code">A15-A19</a>
+            <span class="label">Tuberculosis</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/A20-A28" title="Certain zoonotic bacterial diseases" class="code">A20-A28</a>
+            <span class="label">Certain zoonotic bacterial diseases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/A30-A49" title="Other bacterial diseases" class="code">A30-A49</a>
+            <span class="label">Other bacterial diseases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/A50-A64" title="Infections with a predominantly sexual mode of transmission" class="code">A50-A64</a>
+            <span class="label">Infections with a predominantly sexual mode of transmission</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/A65-A69" title="Other spirochaetal diseases" class="code">A65-A69</a>
+            <span class="label">Other spirochaetal diseases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/A70-A74" title="Other diseases caused by chlamydiae" class="code">A70-A74</a>
+            <span class="label">Other diseases caused by chlamydiae</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/A75-A79" title="Rickettsioses" class="code">A75-A79</a>
+            <span class="label">Rickettsioses</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/A80-A89" title="Viral infections of the central nervous system" class="code">A80-A89</a>
+            <span class="label">Viral infections of the central nervous system</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/A90-A99" title="Arthropod-borne viral fevers and viral haemorrhagic fevers" class="code">A90-A99</a>
+            <span class="label">Arthropod-borne viral fevers and viral haemorrhagic fevers</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/B00-B09" title="Viral infections characterized by skin and mucous membrane lesions" class="code">B00-B09</a>
+            <span class="label">Viral infections characterized by skin and mucous membrane lesions</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/B15-B19" title="Viral hepatitis" class="code">B15-B19</a>
+            <span class="label">Viral hepatitis</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/B20-B24" title="Human immunodeficiency virus [HIV] disease" class="code">B20-B24</a>
+            <span class="label">Human immunodeficiency virus [HIV] disease</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/B25-B34" title="Other viral diseases" class="code">B25-B34</a>
+            <span class="label">Other viral diseases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/B35-B49" title="Mycoses" class="code">B35-B49</a>
+            <span class="label">Mycoses</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/B50-B64" title="Protozoal diseases" class="code">B50-B64</a>
+            <span class="label">Protozoal diseases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/B65-B83" title="Helminthiases" class="code">B65-B83</a>
+            <span class="label">Helminthiases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/B85-B89" title="Pediculosis, acariasis and other infestations" class="code">B85-B89</a>
+            <span class="label">Pediculosis, acariasis and other infestations</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/B90-B94" title="Sequelae of infectious and parasitic diseases" class="code">B90-B94</a>
+            <span class="label">Sequelae of infectious and parasitic diseases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/B95-B98" title="Bacterial, viral and other infectious agents" class="code">B95-B98</a>
+            <span class="label">Bacterial, viral and other infectious agents</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/B99-B99" title="Other infectious diseases" class="code">B99-B99</a>
+            <span class="label">Other infectious diseases</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+          <li class="Blocklist1">
+            <a href="#/C00-C14" title="Malignant neoplasms" class="code">C00-C97</a>
+            <span class="label">Malignant neoplasms</span>
+            <ul>
+              <li class="Blocklist2">
+                <a href="#/C00-C14" title="Malignant neoplasms, stated or presumed to be primary, of specified sites, except of lymphoid, haematopoietic and related tissue" class="code">C00-C75</a>
+                <span class="label">Malignant neoplasms, stated or presumed to be primary, of specified sites, except of lymphoid, haematopoietic and related tissue</span>
+                <ul>
+                  <li class="Blocklist3">
+                    <a href="#/C00-C14" title="Malignant neoplasms of lip, oral cavity and pharynx" class="code">C00-C14</a>
+                    <span class="label">Malignant neoplasms of lip, oral cavity and pharynx</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/C15-C26" title="Malignant neoplasms of digestive organs" class="code">C15-C26</a>
+                    <span class="label">Malignant neoplasms of digestive organs</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/C30-C39" title="Malignant neoplasms of respiratory and intrathoracic organs" class="code">C30-C39</a>
+                    <span class="label">Malignant neoplasms of respiratory and intrathoracic organs</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/C40-C41" title="Malignant neoplasms of bone and articular cartilage" class="code">C40-C41</a>
+                    <span class="label">Malignant neoplasms of bone and articular cartilage</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/C43-C44" title="Melanoma and other malignant neoplasms of skin" class="code">C43-C44</a>
+                    <span class="label">Melanoma and other malignant neoplasms of skin</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/C45-C49" title="Malignant neoplasms of mesothelial and soft tissue" class="code">C45-C49</a>
+                    <span class="label">Malignant neoplasms of mesothelial and soft tissue</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/C50-C50" title="Malignant neoplasm of breast" class="code">C50-C50</a>
+                    <span class="label">Malignant neoplasm of breast</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/C51-C58" title="Malignant neoplasms of female genital organs" class="code">C51-C58</a>
+                    <span class="label">Malignant neoplasms of female genital organs</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/C60-C63" title="Malignant neoplasms of male genital organs" class="code">C60-C63</a>
+                    <span class="label">Malignant neoplasms of male genital organs</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/C64-C68" title="Malignant neoplasms of urinary tract" class="code">C64-C68</a>
+                    <span class="label">Malignant neoplasms of urinary tract</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/C69-C72" title="Malignant neoplasms of eye, brain and other parts of central nervous system" class="code">C69-C72</a>
+                    <span class="label">Malignant neoplasms of eye, brain and other parts of central nervous system</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/C73-C75" title="Malignant neoplasms of thyroid and other endocrine glands" class="code">C73-C75</a>
+                    <span class="label">Malignant neoplasms of thyroid and other endocrine glands</span>
+                  </li>
+                </ul>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/C76-C80" title="Malignant neoplasms of ill-defined, secondary and unspecified sites" class="code">C76-C80</a>
+                <span class="label">Malignant neoplasms of ill-defined, secondary and unspecified sites</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/C81-C96" title="Malignant neoplasms, stated or presumed to be primary, of lymphoid, haematopoietic and related tissue" class="code">C81-C96</a>
+                <span class="label">Malignant neoplasms, stated or presumed to be primary, of lymphoid, haematopoietic and related tissue</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/C97-C97" title="Malignant neoplasms of independent (primary) multiple sites" class="code">C97-C97</a>
+                <span class="label">Malignant neoplasms of independent (primary) multiple sites</span>
+              </li>
+            </ul>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/D00-D09" title="In situ neoplasms" class="code">D00-D09</a>
+            <span class="label">In situ neoplasms</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/D10-D36" title="Benign neoplasms" class="code">D10-D36</a>
+            <span class="label">Benign neoplasms</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/D37-D48" title="Neoplasms of uncertain or unknown behaviour" class="code">D37-D48</a>
+            <span class="label">Neoplasms of uncertain or unknown behaviour</span>
+          </li>
+
+
+      <dt>
+        <a name="BlockList-III" id="BlockList-III" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/D50-D53" title="Nutritional anaemias" class="code">D50-D53</a>
+            <span class="label">Nutritional anaemias</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/D55-D59" title="Haemolytic anaemias" class="code">D55-D59</a>
+            <span class="label">Haemolytic anaemias</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/D60-D64" title="Aplastic and other anaemias" class="code">D60-D64</a>
+            <span class="label">Aplastic and other anaemias</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/D65-D69" title="Coagulation defects, purpura and other haemorrhagic conditions" class="code">D65-D69</a>
+            <span class="label">Coagulation defects, purpura and other haemorrhagic conditions</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/D70-D77" title="Other diseases of blood and blood-forming organs" class="code">D70-D77</a>
+            <span class="label">Other diseases of blood and blood-forming organs</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/D80-D89" title="Certain disorders involving the immune mechanism" class="code">D80-D89</a>
+            <span class="label">Certain disorders involving the immune mechanism</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-IV" id="BlockList-IV" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/E00-E07" title="Disorders of thyroid gland" class="code">E00-E07</a>
+            <span class="label">Disorders of thyroid gland</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/E10-E14" title="Diabetes mellitus" class="code">E10-E14</a>
+            <span class="label">Diabetes mellitus</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/E15-E16" title="Other disorders of glucose regulation and pancreatic internal secretion" class="code">E15-E16</a>
+            <span class="label">Other disorders of glucose regulation and pancreatic internal secretion</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/E20-E35" title="Disorders of other endocrine glands" class="code">E20-E35</a>
+            <span class="label">Disorders of other endocrine glands</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/E40-E46" title="Malnutrition" class="code">E40-E46</a>
+            <span class="label">Malnutrition</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/E50-E64" title="Other nutritional deficiencies" class="code">E50-E64</a>
+            <span class="label">Other nutritional deficiencies</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/E65-E68" title="Obesity and other hyperalimentation" class="code">E65-E68</a>
+            <span class="label">Obesity and other hyperalimentation</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/E70-E90" title="Metabolic disorders" class="code">E70-E90</a>
+            <span class="label">Metabolic disorders</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-V" id="BlockList-V" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/F00-F09" title="Organic, including symptomatic, mental disorders" class="code">F00-F09</a>
+            <span class="label">Organic, including symptomatic, mental disorders</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/F10-F19" title="Mental and behavioural disorders due to psychoactive substance use" class="code">F10-F19</a>
+            <span class="label">Mental and behavioural disorders due to psychoactive substance use</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/F20-F29" title="Schizophrenia, schizotypal and delusional disorders" class="code">F20-F29</a>
+            <span class="label">Schizophrenia, schizotypal and delusional disorders</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/F30-F39" title="Mood [affective] disorders" class="code">F30-F39</a>
+            <span class="label">Mood [affective] disorders</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/F40-F48" title="Neurotic, stress-related and somatoform disorders" class="code">F40-F48</a>
+            <span class="label">Neurotic, stress-related and somatoform disorders</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/F50-F59" title="Behavioural syndromes associated with physiological disturbances and physical factors" class="code">F50-F59</a>
+            <span class="label">Behavioural syndromes associated with physiological disturbances and physical factors</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/F60-F69" title="Disorders of adult personality and behaviour" class="code">F60-F69</a>
+            <span class="label">Disorders of adult personality and behaviour</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/F70-F79" title="Mental retardation" class="code">F70-F79</a>
+            <span class="label">Mental retardation</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/F80-F89" title="Disorders of psychological development" class="code">F80-F89</a>
+            <span class="label">Disorders of psychological development</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/F90-F98" title="Behavioural and emotional disorders with onset usually occurring in childhood and adolescence" class="code">F90-F98</a>
+            <span class="label">Behavioural and emotional disorders with onset usually occurring in childhood and adolescence</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/F99-F99" title="Unspecified mental disorder" class="code">F99-F99</a>
+            <span class="label">Unspecified mental disorder</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-VI" id="BlockList-VI" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/G00-G09" title="Inflammatory diseases of the central nervous system" class="code">G00-G09</a>
+            <span class="label">Inflammatory diseases of the central nervous system</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/G10-G14" title="Systemic atrophies primarily affecting the central nervous system" class="code">G10-G14</a>
+            <span class="label">Systemic atrophies primarily affecting the central nervous system</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/G20-G26" title="Extrapyramidal and movement disorders" class="code">G20-G26</a>
+            <span class="label">Extrapyramidal and movement disorders</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/G30-G32" title="Other degenerative diseases of the nervous system" class="code">G30-G32</a>
+            <span class="label">Other degenerative diseases of the nervous system</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/G35-G37" title="Demyelinating diseases of the central nervous system" class="code">G35-G37</a>
+            <span class="label">Demyelinating diseases of the central nervous system</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/G40-G47" title="Episodic and paroxysmal disorders" class="code">G40-G47</a>
+            <span class="label">Episodic and paroxysmal disorders</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/G50-G59" title="Nerve, nerve root and plexus disorders" class="code">G50-G59</a>
+            <span class="label">Nerve, nerve root and plexus disorders</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/G60-G64" title="Polyneuropathies and other disorders of the peripheral nervous system" class="code">G60-G64</a>
+            <span class="label">Polyneuropathies and other disorders of the peripheral nervous system</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/G70-G73" title="Diseases of myoneural junction and muscle" class="code">G70-G73</a>
+            <span class="label">Diseases of myoneural junction and muscle</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/G80-G83" title="Cerebral palsy and other paralytic syndromes" class="code">G80-G83</a>
+            <span class="label">Cerebral palsy and other paralytic syndromes</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/G90-G99" title="Other disorders of the nervous system" class="code">G90-G99</a>
+            <span class="label">Other disorders of the nervous system</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-VII" id="BlockList-VII" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/H00-H06" title="Disorders of eyelid, lacrimal system and orbit" class="code">H00-H06</a>
+            <span class="label">Disorders of eyelid, lacrimal system and orbit</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/H10-H13" title="Disorders of conjunctiva" class="code">H10-H13</a>
+            <span class="label">Disorders of conjunctiva</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/H15-H22" title="Disorders of sclera, cornea, iris and ciliary body" class="code">H15-H22</a>
+            <span class="label">Disorders of sclera, cornea, iris and ciliary body</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/H25-H28" title="Disorders of lens" class="code">H25-H28</a>
+            <span class="label">Disorders of lens</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/H30-H36" title="Disorders of choroid and retina" class="code">H30-H36</a>
+            <span class="label">Disorders of choroid and retina</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/H40-H42" title="Glaucoma" class="code">H40-H42</a>
+            <span class="label">Glaucoma</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/H43-H45" title="Disorders of vitreous body and globe" class="code">H43-H45</a>
+            <span class="label">Disorders of vitreous body and globe</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/H46-H48" title="Disorders of optic nerve and visual pathways" class="code">H46-H48</a>
+            <span class="label">Disorders of optic nerve and visual pathways</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/H49-H52" title="Disorders of ocular muscles, binocular movement, accommodation and refraction" class="code">H49-H52</a>
+            <span class="label">Disorders of ocular muscles, binocular movement, accommodation and refraction</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/H53-H54" title="Visual disturbances and blindness" class="code">H53-H54</a>
+            <span class="label">Visual disturbances and blindness</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/H55-H59" title="Other disorders of eye and adnexa" class="code">H55-H59</a>
+            <span class="label">Other disorders of eye and adnexa</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-VIII" id="BlockList-VIII" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/H60-H62" title="Diseases of external ear" class="code">H60-H62</a>
+            <span class="label">Diseases of external ear</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/H65-H75" title="Diseases of middle ear and mastoid" class="code">H65-H75</a>
+            <span class="label">Diseases of middle ear and mastoid</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/H80-H83" title="Diseases of inner ear" class="code">H80-H83</a>
+            <span class="label">Diseases of inner ear</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/H90-H95" title="Other disorders of ear" class="code">H90-H95</a>
+            <span class="label">Other disorders of ear</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-IX" id="BlockList-IX" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/I00-I02" title="Acute rheumatic fever" class="code">I00-I02</a>
+            <span class="label">Acute rheumatic fever</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/I05-I09" title="Chronic rheumatic heart diseases" class="code">I05-I09</a>
+            <span class="label">Chronic rheumatic heart diseases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/I10-I15" title="Hypertensive diseases" class="code">I10-I15</a>
+            <span class="label">Hypertensive diseases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/I20-I25" title="Ischaemic heart diseases" class="code">I20-I25</a>
+            <span class="label">Ischaemic heart diseases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/I26-I28" title="Pulmonary heart disease and diseases of pulmonary circulation" class="code">I26-I28</a>
+            <span class="label">Pulmonary heart disease and diseases of pulmonary circulation</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/I30-I52" title="Other forms of heart disease" class="code">I30-I52</a>
+            <span class="label">Other forms of heart disease</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/I60-I69" title="Cerebrovascular diseases" class="code">I60-I69</a>
+            <span class="label">Cerebrovascular diseases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/I70-I79" title="Diseases of arteries, arterioles and capillaries" class="code">I70-I79</a>
+            <span class="label">Diseases of arteries, arterioles and capillaries</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/I80-I89" title="Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified" class="code">I80-I89</a>
+            <span class="label">Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/I95-I99" title="Other and unspecified disorders of the circulatory system" class="code">I95-I99</a>
+            <span class="label">Other and unspecified disorders of the circulatory system</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-X" id="BlockList-X" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/J00-J06" title="Acute upper respiratory infections" class="code">J00-J06</a>
+            <span class="label">Acute upper respiratory infections</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/J09-J18" title="Influenza and pneumonia" class="code">J09-J18</a>
+            <span class="label">Influenza and pneumonia</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/J20-J22" title="Other acute lower respiratory infections" class="code">J20-J22</a>
+            <span class="label">Other acute lower respiratory infections</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/J30-J39" title="Other diseases of upper respiratory tract" class="code">J30-J39</a>
+            <span class="label">Other diseases of upper respiratory tract</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/J40-J47" title="Chronic lower respiratory diseases" class="code">J40-J47</a>
+            <span class="label">Chronic lower respiratory diseases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/J60-J70" title="Lung diseases due to external agents" class="code">J60-J70</a>
+            <span class="label">Lung diseases due to external agents</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/J80-J84" title="Other respiratory diseases principally affecting the interstitium" class="code">J80-J84</a>
+            <span class="label">Other respiratory diseases principally affecting the interstitium</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/J85-J86" title="Suppurative and necrotic conditions of lower respiratory tract" class="code">J85-J86</a>
+            <span class="label">Suppurative and necrotic conditions of lower respiratory tract</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/J90-J94" title="Other diseases of pleura" class="code">J90-J94</a>
+            <span class="label">Other diseases of pleura</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/J95-J99" title="Other diseases of the respiratory system" class="code">J95-J99</a>
+            <span class="label">Other diseases of the respiratory system</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-XI" id="BlockList-XI" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/K00-K14" title="Diseases of oral cavity, salivary glands and jaws" class="code">K00-K14</a>
+            <span class="label">Diseases of oral cavity, salivary glands and jaws</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/K20-K31" title="Diseases of oesophagus, stomach and duodenum" class="code">K20-K31</a>
+            <span class="label">Diseases of oesophagus, stomach and duodenum</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/K35-K38" title="Diseases of appendix" class="code">K35-K38</a>
+            <span class="label">Diseases of appendix</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/K40-K46" title="Hernia" class="code">K40-K46</a>
+            <span class="label">Hernia</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/K50-K52" title="Noninfective enteritis and colitis" class="code">K50-K52</a>
+            <span class="label">Noninfective enteritis and colitis</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/K55-K63" title="Other diseases of intestines" class="code">K55-K63</a>
+            <span class="label">Other diseases of intestines</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/K65-K67" title="Diseases of peritoneum" class="code">K65-K67</a>
+            <span class="label">Diseases of peritoneum</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/K70-K77" title="Diseases of liver" class="code">K70-K77</a>
+            <span class="label">Diseases of liver</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/K80-K87" title="Disorders of gallbladder, biliary tract and pancreas" class="code">K80-K87</a>
+            <span class="label">Disorders of gallbladder, biliary tract and pancreas</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/K90-K93" title="Other diseases of the digestive system" class="code">K90-K93</a>
+            <span class="label">Other diseases of the digestive system</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-XII" id="BlockList-XII" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/L00-L08" title="Infections of the skin and subcutaneous tissue" class="code">L00-L08</a>
+            <span class="label">Infections of the skin and subcutaneous tissue</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/L10-L14" title="Bullous disorders" class="code">L10-L14</a>
+            <span class="label">Bullous disorders</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/L20-L30" title="Dermatitis and eczema" class="code">L20-L30</a>
+            <span class="label">Dermatitis and eczema</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/L40-L45" title="Papulosquamous disorders" class="code">L40-L45</a>
+            <span class="label">Papulosquamous disorders</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/L50-L54" title="Urticaria and erythema" class="code">L50-L54</a>
+            <span class="label">Urticaria and erythema</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/L55-L59" title="Radiation-related disorders of the skin and subcutaneous tissue" class="code">L55-L59</a>
+            <span class="label">Radiation-related disorders of the skin and subcutaneous tissue</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/L60-L75" title="Disorders of skin appendages" class="code">L60-L75</a>
+            <span class="label">Disorders of skin appendages</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/L80-L99" title="Other disorders of the skin and subcutaneous tissue" class="code">L80-L99</a>
+            <span class="label">Other disorders of the skin and subcutaneous tissue</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-XIII" id="BlockList-XIII" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/M00-M03" title="Arthropathies" class="code">M00-M25</a>
+            <span class="label">Arthropathies</span>
+            <ul>
+              <li class="Blocklist2">
+                <a href="#/M00-M03" title="Infectious arthropathies" class="code">M00-M03</a>
+                <span class="label">Infectious arthropathies</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/M05-M14" title="Inflammatory polyarthropathies" class="code">M05-M14</a>
+                <span class="label">Inflammatory polyarthropathies</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/M15-M19" title="Arthrosis" class="code">M15-M19</a>
+                <span class="label">Arthrosis</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/M20-M25" title="Other joint disorders" class="code">M20-M25</a>
+                <span class="label">Other joint disorders</span>
+              </li>
+            </ul>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/M30-M36" title="Systemic connective tissue disorders" class="code">M30-M36</a>
+            <span class="label">Systemic connective tissue disorders</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/M40-M43" title="Dorsopathies" class="code">M40-M54</a>
+            <span class="label">Dorsopathies</span>
+            <ul>
+              <li class="Blocklist2">
+                <a href="#/M40-M43" title="Deforming dorsopathies" class="code">M40-M43</a>
+                <span class="label">Deforming dorsopathies</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/M45-M49" title="Spondylopathies" class="code">M45-M49</a>
+                <span class="label">Spondylopathies</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/M50-M54" title="Other dorsopathies" class="code">M50-M54</a>
+                <span class="label">Other dorsopathies</span>
+              </li>
+            </ul>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/M60-M63" title="Soft tissue disorders" class="code">M60-M79</a>
+            <span class="label">Soft tissue disorders</span>
+            <ul>
+              <li class="Blocklist2">
+                <a href="#/M60-M63" title="Disorders of muscles" class="code">M60-M63</a>
+                <span class="label">Disorders of muscles</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/M65-M68" title="Disorders of synovium and tendon" class="code">M65-M68</a>
+                <span class="label">Disorders of synovium and tendon</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/M70-M79" title="Other soft tissue disorders" class="code">M70-M79</a>
+                <span class="label">Other soft tissue disorders</span>
+              </li>
+            </ul>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/M80-M85" title="Osteopathies and chondropathies" class="code">M80-M94</a>
+            <span class="label">Osteopathies and chondropathies</span>
+            <ul>
+              <li class="Blocklist2">
+                <a href="#/M80-M85" title="Disorders of bone density and structure" class="code">M80-M85</a>
+                <span class="label">Disorders of bone density and structure</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/M86-M90" title="Other osteopathies" class="code">M86-M90</a>
+                <span class="label">Other osteopathies</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/M91-M94" title="Chondropathies" class="code">M91-M94</a>
+                <span class="label">Chondropathies</span>
+              </li>
+            </ul>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/M95-M99" title="Other disorders of the musculoskeletal system and connective tissue" class="code">M95-M99</a>
+            <span class="label">Other disorders of the musculoskeletal system and connective tissue</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-XIV" id="BlockList-XIV" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/N00-N08" title="Glomerular diseases" class="code">N00-N08</a>
+            <span class="label">Glomerular diseases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/N10-N16" title="Renal tubulo-interstitial diseases" class="code">N10-N16</a>
+            <span class="label">Renal tubulo-interstitial diseases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/N17-N19" title="Renal failure" class="code">N17-N19</a>
+            <span class="label">Renal failure</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/N20-N23" title="Urolithiasis" class="code">N20-N23</a>
+            <span class="label">Urolithiasis</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/N25-N29" title="Other disorders of kidney and ureter" class="code">N25-N29</a>
+            <span class="label">Other disorders of kidney and ureter</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/N30-N39" title="Other diseases of urinary system" class="code">N30-N39</a>
+            <span class="label">Other diseases of urinary system</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/N40-N51" title="Diseases of male genital organs" class="code">N40-N51</a>
+            <span class="label">Diseases of male genital organs</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/N60-N64" title="Disorders of breast" class="code">N60-N64</a>
+            <span class="label">Disorders of breast</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/N70-N77" title="Inflammatory diseases of female pelvic organs" class="code">N70-N77</a>
+            <span class="label">Inflammatory diseases of female pelvic organs</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/N80-N98" title="Noninflammatory disorders of female genital tract" class="code">N80-N98</a>
+            <span class="label">Noninflammatory disorders of female genital tract</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/N99-N99" title="Other disorders of the genitourinary system" class="code">N99-N99</a>
+            <span class="label">Other disorders of the genitourinary system</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-XV" id="BlockList-XV" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/O00-O08" title="Pregnancy with abortive outcome" class="code">O00-O08</a>
+            <span class="label">Pregnancy with abortive outcome</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/O10-O16" title="Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium" class="code">O10-O16</a>
+            <span class="label">Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth and the puerperium</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/O20-O29" title="Other maternal disorders predominantly related to pregnancy" class="code">O20-O29</a>
+            <span class="label">Other maternal disorders predominantly related to pregnancy</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/O30-O48" title="Maternal care related to the fetus and amniotic cavity and possible delivery problems" class="code">O30-O48</a>
+            <span class="label">Maternal care related to the fetus and amniotic cavity and possible delivery problems</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/O60-O75" title="Complications of labour and delivery" class="code">O60-O75</a>
+            <span class="label">Complications of labour and delivery</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/O80-O84" title="Delivery" class="code">O80-O84</a>
+            <span class="label">Delivery</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/O85-O92" title="Complications predominantly related to the puerperium" class="code">O85-O92</a>
+            <span class="label">Complications predominantly related to the puerperium</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/O94-O99" title="Other obstetric conditions, not elsewhere classified" class="code">O94-O99</a>
+            <span class="label">Other obstetric conditions, not elsewhere classified</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-XVI" id="BlockList-XVI" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/P00-P04" title="Fetus and newborn affected by maternal factors and by complications of pregnancy, labour and delivery" class="code">P00-P04</a>
+            <span class="label">Fetus and newborn affected by maternal factors and by complications of pregnancy, labour and delivery</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/P05-P08" title="Disorders related to length of gestation and fetal growth" class="code">P05-P08</a>
+            <span class="label">Disorders related to length of gestation and fetal growth</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/P10-P15" title="Birth trauma" class="code">P10-P15</a>
+            <span class="label">Birth trauma</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/P20-P29" title="Respiratory and cardiovascular disorders specific to the perinatal period" class="code">P20-P29</a>
+            <span class="label">Respiratory and cardiovascular disorders specific to the perinatal period</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/P35-P39" title="Infections specific to the perinatal period" class="code">P35-P39</a>
+            <span class="label">Infections specific to the perinatal period</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/P50-P61" title="Haemorrhagic and haematological disorders of fetus and newborn" class="code">P50-P61</a>
+            <span class="label">Haemorrhagic and haematological disorders of fetus and newborn</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/P70-P74" title="Transitory endocrine and metabolic disorders specific to fetus and newborn" class="code">P70-P74</a>
+            <span class="label">Transitory endocrine and metabolic disorders specific to fetus and newborn</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/P75-P78" title="Digestive system disorders of fetus and newborn" class="code">P75-P78</a>
+            <span class="label">Digestive system disorders of fetus and newborn</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/P80-P83" title="Conditions involving the integument and temperature regulation of fetus and newborn" class="code">P80-P83</a>
+            <span class="label">Conditions involving the integument and temperature regulation of fetus and newborn</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/P90-P96" title="Other disorders originating in the perinatal period" class="code">P90-P96</a>
+            <span class="label">Other disorders originating in the perinatal period</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-XVII" id="BlockList-XVII" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/Q00-Q07" title="Congenital malformations of the nervous system" class="code">Q00-Q07</a>
+            <span class="label">Congenital malformations of the nervous system</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Q10-Q18" title="Congenital malformations of eye, ear, face and neck" class="code">Q10-Q18</a>
+            <span class="label">Congenital malformations of eye, ear, face and neck</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Q20-Q28" title="Congenital malformations of the circulatory system" class="code">Q20-Q28</a>
+            <span class="label">Congenital malformations of the circulatory system</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Q30-Q34" title="Congenital malformations of the respiratory system" class="code">Q30-Q34</a>
+            <span class="label">Congenital malformations of the respiratory system</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Q35-Q37" title="Cleft lip and cleft palate" class="code">Q35-Q37</a>
+            <span class="label">Cleft lip and cleft palate</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Q38-Q45" title="Other congenital malformations of the digestive system" class="code">Q38-Q45</a>
+            <span class="label">Other congenital malformations of the digestive system</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Q50-Q56" title="Congenital malformations of genital organs" class="code">Q50-Q56</a>
+            <span class="label">Congenital malformations of genital organs</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Q60-Q64" title="Congenital malformations of the urinary system" class="code">Q60-Q64</a>
+            <span class="label">Congenital malformations of the urinary system</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Q65-Q79" title="Congenital malformations and deformations of the musculoskeletal system" class="code">Q65-Q79</a>
+            <span class="label">Congenital malformations and deformations of the musculoskeletal system</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Q80-Q89" title="Other congenital malformations" class="code">Q80-Q89</a>
+            <span class="label">Other congenital malformations</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Q90-Q99" title="Chromosomal abnormalities, not elsewhere classified" class="code">Q90-Q99</a>
+            <span class="label">Chromosomal abnormalities, not elsewhere classified</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-XVIII" id="BlockList-XVIII" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/R00-R09" title="Symptoms and signs involving the circulatory and respiratory systems" class="code">R00-R09</a>
+            <span class="label">Symptoms and signs involving the circulatory and respiratory systems</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/R10-R19" title="Symptoms and signs involving the digestive system and abdomen" class="code">R10-R19</a>
+            <span class="label">Symptoms and signs involving the digestive system and abdomen</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/R20-R23" title="Symptoms and signs involving the skin and subcutaneous tissue" class="code">R20-R23</a>
+            <span class="label">Symptoms and signs involving the skin and subcutaneous tissue</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/R25-R29" title="Symptoms and signs involving the nervous and musculoskeletal systems" class="code">R25-R29</a>
+            <span class="label">Symptoms and signs involving the nervous and musculoskeletal systems</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/R30-R39" title="Symptoms and signs involving the urinary system" class="code">R30-R39</a>
+            <span class="label">Symptoms and signs involving the urinary system</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/R40-R46" title="Symptoms and signs involving cognition, perception, emotional state and behaviour" class="code">R40-R46</a>
+            <span class="label">Symptoms and signs involving cognition, perception, emotional state and behaviour</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/R47-R49" title="Symptoms and signs involving speech and voice" class="code">R47-R49</a>
+            <span class="label">Symptoms and signs involving speech and voice</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/R50-R69" title="General symptoms and signs" class="code">R50-R69</a>
+            <span class="label">General symptoms and signs</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/R70-R79" title="Abnormal findings on examination of blood, without diagnosis" class="code">R70-R79</a>
+            <span class="label">Abnormal findings on examination of blood, without diagnosis</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/R80-R82" title="Abnormal findings on examination of urine, without diagnosis" class="code">R80-R82</a>
+            <span class="label">Abnormal findings on examination of urine, without diagnosis</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/R83-R89" title="Abnormal findings on examination of other body fluids, substances and tissues, without diagnosis" class="code">R83-R89</a>
+            <span class="label">Abnormal findings on examination of other body fluids, substances and tissues, without diagnosis</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/R90-R94" title="Abnormal findings on diagnostic imaging and in function studies, without diagnosis" class="code">R90-R94</a>
+            <span class="label">Abnormal findings on diagnostic imaging and in function studies, without diagnosis</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/R95-R99" title="Ill-defined and unknown causes of mortality" class="code">R95-R99</a>
+            <span class="label">Ill-defined and unknown causes of mortality</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-XIX" id="BlockList-XIX" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/S00-S09" title="Injuries to the head" class="code">S00-S09</a>
+            <span class="label">Injuries to the head</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/S10-S19" title="Injuries to the neck" class="code">S10-S19</a>
+            <span class="label">Injuries to the neck</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/S20-S29" title="Injuries to the thorax" class="code">S20-S29</a>
+            <span class="label">Injuries to the thorax</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/S30-S39" title="Injuries to the abdomen, lower back, lumbar spine and pelvis" class="code">S30-S39</a>
+            <span class="label">Injuries to the abdomen, lower back, lumbar spine and pelvis</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/S40-S49" title="Injuries to the shoulder and upper arm" class="code">S40-S49</a>
+            <span class="label">Injuries to the shoulder and upper arm</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/S50-S59" title="Injuries to the elbow and forearm" class="code">S50-S59</a>
+            <span class="label">Injuries to the elbow and forearm</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/S60-S69" title="Injuries to the wrist and hand" class="code">S60-S69</a>
+            <span class="label">Injuries to the wrist and hand</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/S70-S79" title="Injuries to the hip and thigh" class="code">S70-S79</a>
+            <span class="label">Injuries to the hip and thigh</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/S80-S89" title="Injuries to the knee and lower leg" class="code">S80-S89</a>
+            <span class="label">Injuries to the knee and lower leg</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/S90-S99" title="Injuries to the ankle and foot" class="code">S90-S99</a>
+            <span class="label">Injuries to the ankle and foot</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/T00-T07" title="Injuries involving multiple body regions" class="code">T00-T07</a>
+            <span class="label">Injuries involving multiple body regions</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/T08-T14" title="Injuries to unspecified part of trunk, limb or body region" class="code">T08-T14</a>
+            <span class="label">Injuries to unspecified part of trunk, limb or body region</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/T15-T19" title="Effects of foreign body entering through natural orifice" class="code">T15-T19</a>
+            <span class="label">Effects of foreign body entering through natural orifice</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/T20-T25" title="Burns and corrosions" class="code">T20-T32</a>
+            <span class="label">Burns and corrosions</span>
+            <ul>
+              <li class="Blocklist2">
+                <a href="#/T20-T25" title="Burns and corrosions of external body surface, specified by site" class="code">T20-T25</a>
+                <span class="label">Burns and corrosions of external body surface, specified by site</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/T26-T28" title="Burns and corrosions confined to eye and internal organs" class="code">T26-T28</a>
+                <span class="label">Burns and corrosions confined to eye and internal organs</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/T29-T32" title="Burns and corrosions of multiple and unspecified body regions" class="code">T29-T32</a>
+                <span class="label">Burns and corrosions of multiple and unspecified body regions</span>
+              </li>
+            </ul>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/T33-T35" title="Frostbite" class="code">T33-T35</a>
+            <span class="label">Frostbite</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/T36-T50" title="Poisoning by drugs, medicaments and biological substances" class="code">T36-T50</a>
+            <span class="label">Poisoning by drugs, medicaments and biological substances</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/T51-T65" title="Toxic effects of substances chiefly nonmedicinal as to source" class="code">T51-T65</a>
+            <span class="label">Toxic effects of substances chiefly nonmedicinal as to source</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/T66-T78" title="Other and unspecified effects of external causes" class="code">T66-T78</a>
+            <span class="label">Other and unspecified effects of external causes</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/T79-T79" title="Certain early complications of trauma" class="code">T79-T79</a>
+            <span class="label">Certain early complications of trauma</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/T80-T88" title="Complications of surgical and medical care, not elsewhere classified" class="code">T80-T88</a>
+            <span class="label">Complications of surgical and medical care, not elsewhere classified</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/T90-T98" title="Sequelae of injuries, of poisoning and of other consequences of external causes" class="code">T90-T98</a>
+            <span class="label">Sequelae of injuries, of poisoning and of other consequences of external causes</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-XX" id="BlockList-XX" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/V01-V09" title="Accidents" class="code">V01-X59</a>
+            <span class="label">Accidents</span>
+            <ul>
+              <li class="Blocklist2">
+                <a href="#/V01-V09" title="Transport accidents" class="code">V01-V99</a>
+                <span class="label">Transport accidents</span>
+                <ul>
+                  <li class="Blocklist3">
+                    <a href="#/V01-V09" title="Pedestrian injured in transport accident" class="code">V01-V09</a>
+                    <span class="label">Pedestrian injured in transport accident</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/V10-V19" title="Pedal cyclist injured in transport accident" class="code">V10-V19</a>
+                    <span class="label">Pedal cyclist injured in transport accident</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/V20-V29" title="Motorcycle rider injured in transport accident" class="code">V20-V29</a>
+                    <span class="label">Motorcycle rider injured in transport accident</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/V30-V39" title="Occupant of three-wheeled motor vehicle injured in transport accident" class="code">V30-V39</a>
+                    <span class="label">Occupant of three-wheeled motor vehicle injured in transport accident</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/V40-V49" title="Car occupant injured in transport accident" class="code">V40-V49</a>
+                    <span class="label">Car occupant injured in transport accident</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/V50-V59" title="Occupant of pick-up truck or van injured in transport accident" class="code">V50-V59</a>
+                    <span class="label">Occupant of pick-up truck or van injured in transport accident</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/V60-V69" title="Occupant of heavy transport vehicle injured in transport accident" class="code">V60-V69</a>
+                    <span class="label">Occupant of heavy transport vehicle injured in transport accident</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/V70-V79" title="Bus occupant injured in transport accident" class="code">V70-V79</a>
+                    <span class="label">Bus occupant injured in transport accident</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/V80-V89" title="Other land transport accidents" class="code">V80-V89</a>
+                    <span class="label">Other land transport accidents</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/V90-V94" title="Water transport accidents" class="code">V90-V94</a>
+                    <span class="label">Water transport accidents</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/V95-V97" title="Air and space transport accidents" class="code">V95-V97</a>
+                    <span class="label">Air and space transport accidents</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/V98-V99" title="Other and unspecified transport accidents" class="code">V98-V99</a>
+                    <span class="label">Other and unspecified transport accidents</span>
+                  </li>
+                </ul>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/W00-W19" title="Other external causes of accidental injury" class="code">W00-X59</a>
+                <span class="label">Other external causes of accidental injury</span>
+                <ul>
+                  <li class="Blocklist3">
+                    <a href="#/W00-W19" title="Falls" class="code">W00-W19</a>
+                    <span class="label">Falls</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/W20-W49" title="Exposure to inanimate mechanical forces" class="code">W20-W49</a>
+                    <span class="label">Exposure to inanimate mechanical forces</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/W50-W64" title="Exposure to animate mechanical forces" class="code">W50-W64</a>
+                    <span class="label">Exposure to animate mechanical forces</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/W65-W74" title="Accidental drowning and submersion" class="code">W65-W74</a>
+                    <span class="label">Accidental drowning and submersion</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/W75-W84" title="Other accidental threats to breathing" class="code">W75-W84</a>
+                    <span class="label">Other accidental threats to breathing</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/W85-W99" title="Exposure to electric current, radiation and extreme ambient air temperature and pressure" class="code">W85-W99</a>
+                    <span class="label">Exposure to electric current, radiation and extreme ambient air temperature and pressure</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/X00-X09" title="Exposure to smoke, fire and flames" class="code">X00-X09</a>
+                    <span class="label">Exposure to smoke, fire and flames</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/X10-X19" title="Contact with heat and hot substances" class="code">X10-X19</a>
+                    <span class="label">Contact with heat and hot substances</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/X20-X29" title="Contact with venomous animals and plants" class="code">X20-X29</a>
+                    <span class="label">Contact with venomous animals and plants</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/X30-X39" title="Exposure to forces of nature" class="code">X30-X39</a>
+                    <span class="label">Exposure to forces of nature</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/X40-X49" title="Accidental poisoning by and exposure to noxious substances" class="code">X40-X49</a>
+                    <span class="label">Accidental poisoning by and exposure to noxious substances</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/X50-X57" title="Overexertion, travel and privation" class="code">X50-X57</a>
+                    <span class="label">Overexertion, travel and privation</span>
+                  </li>
+                  <li class="Blocklist3">
+                    <a href="#/X58-X59" title="Accidental exposure to other and unspecified factors" class="code">X58-X59</a>
+                    <span class="label">Accidental exposure to other and unspecified factors</span>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/X60-X84" title="Intentional self-harm" class="code">X60-X84</a>
+            <span class="label">Intentional self-harm</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/X85-Y09" title="Assault" class="code">X85-Y09</a>
+            <span class="label">Assault</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Y10-Y34" title="Event of undetermined intent" class="code">Y10-Y34</a>
+            <span class="label">Event of undetermined intent</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Y35-Y36" title="Legal intervention and operations of war" class="code">Y35-Y36</a>
+            <span class="label">Legal intervention and operations of war</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Y40-Y59" title="Complications of medical and surgical care" class="code">Y40-Y84</a>
+            <span class="label">Complications of medical and surgical care</span>
+            <ul>
+              <li class="Blocklist2">
+                <a href="#/Y40-Y59" title="Drugs, medicaments and biological substances causing adverse effects in therapeutic use" class="code">Y40-Y59</a>
+                <span class="label">Drugs, medicaments and biological substances causing adverse effects in therapeutic use</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/Y60-Y69" title="Misadventures to patients during surgical and medical care" class="code">Y60-Y69</a>
+                <span class="label">Misadventures to patients during surgical and medical care</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/Y70-Y82" title="Medical devices associated with adverse incidents in diagnostic and therapeutic use" class="code">Y70-Y82</a>
+                <span class="label">Medical devices associated with adverse incidents in diagnostic and therapeutic use</span>
+              </li>
+              <li class="Blocklist2">
+                <a href="#/Y83-Y84" title="Surgical and other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure" class="code">Y83-Y84</a>
+                <span class="label">Surgical and other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure</span>
+              </li>
+            </ul>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Y85-Y89" title="Sequelae of external causes of morbidity and mortality" class="code">Y85-Y89</a>
+            <span class="label">Sequelae of external causes of morbidity and mortality</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Y90-Y98" title="Supplementary factors related to causes of morbidity and mortality classified elsewhere" class="code">Y90-Y98</a>
+            <span class="label">Supplementary factors related to causes of morbidity and mortality classified elsewhere</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-XXI" id="BlockList-XXI" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/Z00-Z13" title="Persons encountering health services for examination and investigation" class="code">Z00-Z13</a>
+            <span class="label">Persons encountering health services for examination and investigation</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Z20-Z29" title="Persons with potential health hazards related to communicable diseases" class="code">Z20-Z29</a>
+            <span class="label">Persons with potential health hazards related to communicable diseases</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Z30-Z39" title="Persons encountering health services in circumstances related to reproduction" class="code">Z30-Z39</a>
+            <span class="label">Persons encountering health services in circumstances related to reproduction</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Z40-Z54" title="Persons encountering health services for specific procedures and health care" class="code">Z40-Z54</a>
+            <span class="label">Persons encountering health services for specific procedures and health care</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Z55-Z65" title="Persons with potential health hazards related to socioeconomic and psychosocial circumstances" class="code">Z55-Z65</a>
+            <span class="label">Persons with potential health hazards related to socioeconomic and psychosocial circumstances</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Z70-Z76" title="Persons encountering health services in other circumstances" class="code">Z70-Z76</a>
+            <span class="label">Persons encountering health services in other circumstances</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/Z80-Z99" title="Persons with potential health hazards related to family and personal history and certain conditions influencing health status" class="code">Z80-Z99</a>
+            <span class="label">Persons with potential health hazards related to family and personal history and certain conditions influencing health status</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+      <dt>
+        <a name="BlockList-XXII" id="BlockList-XXII" class="anchor">This chapter contains the following blocks:</a>
+      </dt>
+      <dd>
+        <ul>
+          <li class="Blocklist1">
+            <a href="#/U00-U49" title="Provisional assignment of new diseases of uncertain etiology" class="code">U00-U49</a>
+            <span class="label">Provisional assignment of new diseases of uncertain etiology</span>
+          </li>
+          <li class="Blocklist1">
+            <a href="#/U80-U89" title="Bacterial agents resistant to antibiotics" class="code">U80-U89</a>
+            <span class="label">Bacterial agents resistant to antibiotics</span>
+          </li>
+        </ul>
+      </dd>
+    
+
+        

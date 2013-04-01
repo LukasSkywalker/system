@@ -13,7 +13,9 @@ class DbAdapter
   end
 
   def get_docs
-    self.coll.find('long' => { '$exists' => 0 })
+    co = self.coll.find('long' => { '$exists' => 0 })
+    puts co.count
+    co
   end
 
   def insert_location(id, loc)

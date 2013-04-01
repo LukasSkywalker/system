@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"> 
+  <script src="arrayHelpers.js"></script>
+  <script src="raphael.js"></script>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    var rootNode = null;
+    
+    function Point(x, y) {
+      this.x = x;
+      this.y = y;
+    }
+    
+    function demo(){
+      var r = makeDiv();
+      oneColumn2(r);
+    }
+    
+    function test(){
+      r.sort(function (a, b) {
+        return $(b).height() - $(a).height();
+      })
+      
+      var c = new Canvas(0,0,600);
+      var n = new Node(r[0], null, true);
+      var r_1 = c.addRow(n);
+      assert(r_1.top, 0);
+      assert(r_1.bottom(), n.height);
+      assert(c.bottom(), n.height);
+      var n2 = new Node(r[1], null, true);
+      r_1.addNode(n2);
+      assert(r_1.height(), n.height);
+      assert(r_1.bottom(), n.height)
+    }
+    
+    function oneColumn2(r) {
+      var c = new Canvas(0,0,800);
+      
+      for (var i = 0; i < r.length; i++) {
+        var n = new Node(r[i], null, true);
+        if (n.width > WIDTH / 2) {
+          console.log("width is " + n.width + ", setting to top");
+          var r_1 = c.addRow(n);
+        }
+      }
+
+      r.sort(function (a, b) {
+        return $(b).height() - $(a).height();
+      })
+
+      for (var i = 0; i < r.length; i++) {
+        var n = new Node(r[i], null, false);
+        if (n.width <= WIDTH / 2) {
+          if (c.currentRow() == undefined){ //no row yet
+            c.addRow(n);
+          }else if(n.width + c.currentRow().spaceUsed() <= 800) { //fits in this row
+            c.currentRow().addNode(n);
+          } else {    // no more space left
+            c.addRow(n);
+          }
+        }
+      }
+    }
+    
+    function assert(a, b){
+      if(a !== b) console.log('is not ok: '+a+" != "+b);
+      else console.log('is ok');
+    }
+    
+    function Canvas(left, top, width) {
+      this.rows = [];
+      this.left = left;
+      this.top = top;
+      this.width = width;
+    }
+    
+    Canvas.prototype.currentRow = function(){
+      return this.rows[this.rows.length - 1];
+    }
+    
+    
+    Canvas.prototype.addRow = function(node) {
+      console.log('adding row at '+this.bottom());
+      var row = new Row(this.bottom(), node);
+      this.rows.push(row);
+      console.log('added, bottom is now '+this.bottom());
+      return row;
+    }
+    
+    Canvas.prototype.bottom = function() {
+      var b = 0;
+      for(var i=0; i<this.rows.length; i++){
+        var r = this.rows[i];
+        b += r.height();
+      }
+      return b;
+    }
+    
+    function Row(xPos, node) {
+      this.xPos = xPos;
+      this.nodes = [];
+      this.addNode(node);
+    }
+    
+    Row.prototype.top = function(){
+      return this.xPos;
+    }
+    
+    Row.prototype.addNode = function(node) {
+      node.setPosition(this.spaceUsed(), this.top());
+      
+      this.nodes.push(node);
+    }
+    
+    Row.prototype.spaceUsed = function() {
+      var w = 0;
+      for(var i=0; i<this.nodes.length; i++){
+        w += this.nodes[i].width;
+      }
+      return w;
+    }
+    
+    Row.prototype.height = function() {
+      var h = this.nodes[0].height;
+      for(var i=0; i<this.nodes.length; i++) {
+        var r = this.nodes[i];
+        h = Math.max(h, r.height);
+      }
+      return h;
+    }
+    
+    Row.prototype.bottom = function() {
+      return this.top() + this.height();
+    }
+
+    function Node(el, parent, root) {
+      if(root) rootNode = this;
+      this.el = el;
+      console.log(el);
+      this.width = $(el).width();
+      this.height = $(el).height();
+      if(parent){
+        this.parent = parent;
+      }
+    }
+    
+    Node.prototype.setPosition = function(left, top) {
+      this.el.css({
+        top: top + 'px',
+        left: left + 'px'
+      });
+    }
+    
+    Node.prototype.getCenter = function() {
+      return new Point(this.el.position().left + this.width/2, this.el.position().top + this.height/2);
+    }
+    
+    Node.prototype.remove = function() {
+      if(this.parent) {
+        this.parent.children.removeByValue(this);
+      }
+      this.el.remove();
+    }
+    
+    
+    const WIDTH = 800;
+
+    function makeDiv() {
+      var r = [];
+      for (var i = 0; i < 20; i++) {
+        var divwidth = ((Math.random() * 200) + 50).toFixed();
+        var divheight = ((Math.random() * 200) + 50).toFixed();
+        var color = '#' + Math.round(0xffffff * Math.random()).toString(16);
+        $newdiv = $('<div><b>' + i + '</b></div>');
+
+        var posx = Math.random() * 200;
+        var posy = Math.random() * 200;
+
+        $newdiv.css({
+          'width': divwidth + 'px',
+          'height': divheight + 'px',
+          'background-color': color,
+          'position': 'absolute',
+          'left': posx + 'px',
+          'top': posy + 'px',
+          'border': '1px solid black'
+        }).appendTo('body');
+        
+        r.push($newdiv);
+      }
+      return r;
+    }
+    
+    function drawLines() {
+      var paper = Raphael("canvas", WIDTH, 800);
+      for(var i = 0; i < r.length; i++) {
+        var n = r[i];
+        if(n.parent) {
+          var xStart = n.getCenter().x, yStart = n.getCenter().y, xEnd = n.parent.getCenter().x, yEnd =n.parent.getCenter().y;
+          var c = paper.path("M" + xStart + " " + yStart + " L" + xEnd + " " + yEnd);
+        }
+      }
+    }
+
+  </script>
+  <style>
+    #wrapper {
+        position: relative;
+        width: 800px;
+        height: 800px;
+        top: 0;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        border: 1px solid black;
+    }
+    #container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #CCC;
+    }
+    #canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+    </style>
+</head>
+<body onload="demo()">
+  <div id="wrapper">
+    <div id="container">
+    <div id="canvas">
+    </div>
+  </div>
+</body>
+</html>
