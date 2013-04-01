@@ -45,7 +45,7 @@ class MatcherInserter
     while chunk <= chunks
       puts "======================== NEW CHUNK #{chunk} / #{chunks} ========================="
       beg = Time.now
-      rels = @db.get_icd_fs_rel.limit(chunk_size).skip(chunk*chunk_size)
+      rels = @db.get_icd_fs_rel.limit(chunk_size)#.skip(chunk*chunk_size)
 
       rels.p_each(18) do |rel|
         icd_code = rel['icd_code']
