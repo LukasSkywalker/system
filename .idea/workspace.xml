@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0dd1ff-dfe3-4d11-81e3-8ad48534c6de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DoctorLocator/code/db_adapter.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoctorLocator/code/db_adapter.rb" afterPath="$PROJECT_DIR$/DoctorLocator/code/db_adapter.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoctorLocator/code/location_collector.rb" afterPath="$PROJECT_DIR$/DoctorLocator/code/location_collector.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoctorLocator/.idea/misc.xml" afterPath="$PROJECT_DIR$/DoctorLocator/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoctorLocator/code/run.rb" afterPath="$PROJECT_DIR$/DoctorLocator/code/run.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoctorLocator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/DoctorLocator/.idea/workspace.xml" />
     </list>
     <ignored path="system.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ad0dd1ff-dfe3-4d11-81e3-8ad48534c6de" time="1364129147069" ignored="false" />
+    <file path="/Dummy.txt" changelist="ad0dd1ff-dfe3-4d11-81e3-8ad48534c6de" time="1364743424140" ignored="false" />
     <file path="/parser.rb" changelist="ad0dd1ff-dfe3-4d11-81e3-8ad48534c6de" time="1363367709608" ignored="false" />
     <file path="/parser_test.rb" changelist="ad0dd1ff-dfe3-4d11-81e3-8ad48534c6de" time="1363368637757" ignored="false" />
     <file path="/db_adapter.rb" changelist="ad0dd1ff-dfe3-4d11-81e3-8ad48534c6de" time="1364129255121" ignored="false" />
@@ -39,7 +43,7 @@
       <file leaf-file-name="db_adapter.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DoctorLocator/code/db_adapter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="24" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+            <state line="6" column="24" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -48,7 +52,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DoctorLocator/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="21" selection-start="76" selection-end="76" vertical-scroll-proportion="0.2638889">
+            <state line="5" column="21" selection-start="90" selection-end="90" vertical-scroll-proportion="0.13494319">
               <folding />
             </state>
           </provider>
@@ -138,7 +142,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,6 +208,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,20 +389,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="875" extended-state="6" />
+    <frame x="0" y="0" width="1600" height="875" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.5244565" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24935567" sideWeight="0.5244565" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47554347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -466,6 +470,41 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DoctorLocator/code/db_adapter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DoctorLocator/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="21" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MDCtoFSParser/collection_creator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="1" selection-start="56" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MDCtoFSParser/Test/parser_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="70" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MDCtoFSParser/parser.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MDCtoFSParser/adapter.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
@@ -529,14 +568,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DoctorLocator/code/db_adapter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+        <state line="6" column="24" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DoctorLocator/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="76" selection-end="76" vertical-scroll-proportion="0.2638889">
+        <state line="5" column="21" selection-start="90" selection-end="90" vertical-scroll-proportion="0.13494319">
           <folding />
         </state>
       </provider>
