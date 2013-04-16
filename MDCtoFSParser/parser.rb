@@ -10,9 +10,9 @@ class Parser
   def parse_documents
     documents = Array.new
     file.each_line() do |row|
-      columns = row.split(";")
+      columns = row.split(',')
       mdc = columns[0]
-      for i in 1..columns.size
+      for i in 4..columns.size
         unless columns[i].nil?
           fmh = columns[i].gsub(/\s+/, "")
           unless fmh.nil?
