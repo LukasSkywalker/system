@@ -6,7 +6,7 @@ MiniTest::Reporters.use!
 
 class ParserTest < Test::Unit::TestCase
    def test_count
-     parser = Parser.new ("data.csv")
-     assert_equal(59, parser.parse_documents.size, "Wrong amount of data")
+     parser = Parser.new("data.csv")
+     assert_equal(51, parser.parse_documents.size, "Wrong amount of data")
    end
 end
