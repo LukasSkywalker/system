@@ -3,14 +3,14 @@ require_relative 'parser'
 
 host = 'pse4.iam.unibe.ch'
 port = 27017
-db = 'fachgebieteKeywords'
+db = 'dictionaries'
 
 
 puts "parsing"
-parser = Parser.new('../keywords.csv')
+parser = Parser.new('../chop_keywords.csv')
 docs = parser.parse_ranges
 puts "connecting..."
-write_adapter = Adapter.new('fachgebieteKeywords','fachgebieteKeywords',host, port, true)
+write_adapter = Adapter.new(db,'chop_dictionary',host, port, true)
 puts "removing..."
 write_adapter.drop_collection
 puts "inserting..."
