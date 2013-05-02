@@ -4,7 +4,7 @@ require_relative 'parser'
 
 host = 'pse4.iam.unibe.ch'
 port = 27017
-collection = 'docfieldToFSCode'
+collection = 'docfield_to_fmh'
 db = 'doctors'
 
 
