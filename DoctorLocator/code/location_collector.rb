@@ -3,12 +3,16 @@ require 'geocoder'
 
 class LocationCollector
   def insert_data
-    db = DbAdapter.new('doctors', 'doctors', 'pse4.iam.unibe.ch', '27017')
+    db = DbAdapter.new('orange-proton', 'doctors', 'localhost', '27017')
     docs = db.get_docs
+
+
+
     docs.each do |doc|
+
       address = doc['address']
       adr_parts = address.split(',')
-      a = adr_parts[adr_parts.size-1].stripl#adr_parts[adr_parts.size-2].strip + ', ' + adr_parts[adr_parts.size-1].strip + ', Switzerland'
+      a = address#adr_parts[adr_parts.size-1].stripl#adr_parts[adr_parts.size-2].strip + ', ' + adr_parts[adr_parts.size-1].strip + ', Switzerland'
 
       puts a
       locations = Geocoder.search(a)
@@ -21,5 +25,6 @@ class LocationCollector
       id = doc['_id']
       db.insert_location(id, loc) unless loc.nil?
     end
+
   end
 end
