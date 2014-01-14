@@ -16,8 +16,8 @@ class DbAdapter
 
   def insert_location(id, loc)
     doc = self.coll.find_one({_id: id})
-    doc['long'] = loc.longitude
-    doc['lat'] = loc.latitude
+    doc['long'] = loc.longitude unless loc.longitude >15 or loc.longitude<3
+    doc['lat'] = loc.latitude unless loc.latitude <40 or loc.latitude>50
     puts doc
     puts "#{loc.longitude}, #{loc.latitude}"
     #self.coll.remove({_id: id})
